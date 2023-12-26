@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>Maloprodajni salon automobila</title>
+</head>
+<body>
+
+<h1>Prikaz svih automobila s nekom od karakteristika</h1>
+<form> <!--ne radi sa get-->
+  <label for="input-karakteristike">Unesite karakteristike od 1 do 8 (odvojene zarezom): </label><br>
+  <input type="text" id="input-karakteristike" name="karakteristike" required>
+  <button type="submit">Submit</button>
+</form>
+
+<h1>Karton automobila</h1>
+<form>
+  <label for="input-automobil-id">Unesi ID automobila: </label><br>
+  <input type="number" id="input-automobil-id" name="automobil_id" required>
+  <button type="submit">Submit</button>
+</form>
+
+<h1>Unos dokumenta</h1>
+<form>
+
+  <label for="jsonDokument">Unesi dokument (JSON): </label>
+  <input type="file" id="jsonDokument" name="jsonDokument" accept=".json" required>
+  <br>
+  <label for="jsonStavke">Unesi stavke (JSON): </label>
+  <input type="file" id="jsonStavke" name="jsonStavke" accept=".json" required>
+
+  <button type="submit">Submit</button>
+</form>
+
+<script src="/routes/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,64 @@
+body {
+    padding: 3rem;
+    padding-left: 5rem;
+    background-image: url("background.jpg");
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+label {
+    margin: 1rem;
+    font-size: large;
+}
+input {
+    margin: 1rem;
+    padding: 0.4rem;
+    padding-left: 1rem;
+    border: 1px solid dimgrey;
+    border-radius: 1rem;
+}
+button {
+    border: 1px solid dimgrey;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: rgb(200,80,50);
+    color:white;
+}
+
+button:hover {
+    background-color: rgb(140,50,40);
+}
+
+
+input[type="file"] {
+    width: 13rem;
+    margin: 0.5rem;
+    padding: 0.4rem;
+    padding-left: 1rem;
+    border: 1px solid dimgrey;
+    border-radius: 1rem;
+    background-color: white;
+}
+
+/* Style the "Select file" button */
+input[type="file"]::-webkit-file-upload-button {
+    background-color: whitesmoke;
+    color: black;
+    margin-right: 0.6rem;
+    padding: 0.4rem;
+    border: 1px solid dimgrey;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+/* Style for other browsers */
+input[type="file"]::file-selector-button {
+    background-color: whitesmoke;
+    color: black;
+    margin-right: 0.6rem;
+    padding: 0.4rem;
+    border: 1px solid dimgrey;
+    border-radius: 0.6rem;
+    cursor: pointer;
+}
