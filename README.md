@@ -1,20 +1,12 @@
 # car-dealership-no-database
 
-    ```cmd
     git clone https://github.com/emadjedovic/car-dealership-no-database
-    ```
 
-    ```cmd
     cd car-dealership-no-database
-    ```
 
-    ```cmd
     npm install
-    ```
 
-    ```cmd
     npm start
-    ```
 
    The server will start, and you'll see "Server started. Listening on port 3001..." in the console.
 
