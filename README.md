@@ -1,8 +1,8 @@
-# car-dealership-no-database
+# car-dealership
 
-    git clone https://github.com/emadjedovic/car-dealership-no-database
+    git clone https://github.com/emadjedovic/car-dealership
 
-    cd car-dealership-no-database
+    cd car-dealership
 
     npm install
 
